@@ -1,0 +1,11 @@
+# Temporary files
+*swo
+*swp
+*~
+
+# Hugo generated files
+/.hugo_build.lock
+/hugo_stats.json
+/node_modules/
+/package-lock.json
+/resources/
