@@ -16,7 +16,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
-          cache: 'npm'
+          # Remove cache according to this: https://stackoverflow.com/a/73900708
+          # Error: Dependencies lock file is not found in /home/runner/work/unikernelalliance.org/unikernelalliance.org. Supported file patterns: package-lock.json,yarn.lock
+          # cache: 'npm'
 
       - name: Install dependencies
         run: npm install
