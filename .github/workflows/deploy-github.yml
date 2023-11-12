@@ -13,22 +13,21 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: Run the build process with Docker
+        uses: addnab/docker-run-action@v3
         with:
-          node-version: '16'
-          # Remove cache according to this: https://stackoverflow.com/a/73900708
-          # Error: Dependencies lock file is not found in /home/runner/work/unikernelalliance.org/unikernelalliance.org. Supported file patterns: package-lock.json,yarn.lock
-          # cache: 'npm'
+          image: ubuntu:23.04
+          options: -v ${{ github.workspace }}:${{ github.workspace }} -w ${{ github.workspace }}
+          run: |
+              apt update && apt install -y npm
+              npm install
+              npm run production
+              npm run build
+              ls -laR # debug step
 
-      - name: Install dependencies
-        run: npm install
-
-      #FIXME: add tests
-      #- name: Check for linting errors
-      #  run: npm test
-
-      - name: Build production website
-        run: npm run build
+      - name: List all files to deploy (debug step)
+        run: |
+          ls -laR
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
