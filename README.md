@@ -10,13 +10,13 @@ This repository stores information for the [Unikernel Alliance site](https://uni
 ### Clone the repo:
 
 ```console
-git clone https://github.com/unikernelalliance/unikernelalliance.org
+git clone https://github.com/unikernelalliance/unikernelalliance.github.io
 ```
 
 ### Fetch dependencies:
 
 ```console
-cd unikernelalliance.org
+cd unikernelalliance.github.io
 npm install
 ```
 
