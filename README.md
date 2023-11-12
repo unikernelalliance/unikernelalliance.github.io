@@ -5,22 +5,22 @@ The aim is to promote unikernel technologies in commercially viable products, in
 
 This repository stores information for the [Unikernel Alliance site](https://unikernelalliance.org).
 
-## Build locally
+## Build Locally
 
-### Clone the repo:
+### Clone the Repository
 
 ```console
 git clone https://github.com/unikernelalliance/unikernelalliance.github.io
 ```
 
-### Fetch dependencies:
+### Fetch Dependencies
 
 ```console
 cd unikernelalliance.github.io
 npm install
 ```
 
-### (a) Run locally:
+### (a) Run Locally
 
 ```console
 npm run dev
@@ -58,7 +58,7 @@ Web Server is available at http://localhost:1313/ (bind address 0.0.0.0)
 Press Ctrl+C to stop
 ```
 
-### (b) Build static site:
+### (b) Build Static Site
 
 ```console
 npm run build
@@ -196,7 +196,7 @@ hugo v0.119.0-b84644c008e0dc2c4b67bd69cccf87a41a03937e+extended linux/amd64 Buil
 Total in 1150 ms
 ```
 
-## Auto-deploy on GitHub pages:
+## Auto-deploy on GitHub Pages
 
 There's a deploy action through GitHub Actions in `.github/workflows/deploy-github.yml`.
 Essentially, this action builds the static website and adds the `public/` directory to a separate branch `gh-pages`.
