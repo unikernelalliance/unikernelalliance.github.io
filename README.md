@@ -40,16 +40,16 @@ Start building sites …
 hugo v0.119.0-b84644c008e0dc2c4b67bd69cccf87a41a03937e+extended linux/amd64 BuildDate=2023-09-24T15:20:17Z VendorInfo=gohugoio
 
 
-                   | EN
--------------------+-----
-  Pages            | 37
-  Paginator pages  |  0
-  Non-page files   |  0
-  Static files     | 72
-  Processed images | 14
-  Aliases          |  5
-  Sitemaps         |  2
-  Cleaned          |  0
+                    | EN
+--------------------+-----
+  Pages             | 37
+  Paginator pages   |  0
+  Non-page files    |  0
+  Static files      | 72
+  Processed images  | 14
+  Aliases           |  5
+  Sitemaps          |  2
+  Cleaned           |  0
 
 Built in 405 ms
 Environment: "development"
@@ -182,16 +182,16 @@ Start building sites …
 hugo v0.119.0-b84644c008e0dc2c4b67bd69cccf87a41a03937e+extended linux/amd64 BuildDate=2023-09-24T15:20:17Z VendorInfo=gohugoio
 
 
-                   | EN
--------------------+-----
-  Pages            | 37
-  Paginator pages  |  0
-  Non-page files   |  0
-  Static files     | 72
-  Processed images | 16
-  Aliases          |  5
-  Sitemaps         |  2
-  Cleaned          |  0
+                    | EN
+--------------------+-----
+  Pages             | 37
+  Paginator pages   |  0
+  Non-page files    |  0
+  Static files      | 72
+  Processed images  | 16
+  Aliases           |  5
+  Sitemaps          |  2
+  Cleaned           |  0
 
 Total in 1150 ms
 ```
