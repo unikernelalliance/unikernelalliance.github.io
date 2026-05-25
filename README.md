@@ -136,8 +136,6 @@ public/
 |   |   `-- index.html
 |   |-- flexos/
 |   |   `-- index.html
-|   |-- genezio/
-|   |   `-- index.html
 |   |-- hermit/
 |   |   `-- index.html
 |   |-- hermitux/
