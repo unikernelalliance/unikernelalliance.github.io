@@ -133,3 +133,6 @@ images = ["cover.png"]
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
     product = [] # Product sections
+
+[social]
+  twitter = "getdoks"
